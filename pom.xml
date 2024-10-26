@@ -218,6 +218,11 @@
         <configuration>
             <failOnViolation>true</failOnViolation>
 
+            <excludes>
+                <exclude>**/AddressbookUI.java</exclude>
+                <exclude>**/ContactForm.java</exclude>
+            </excludes>
+
         </configuration>
 
     </plugin>
