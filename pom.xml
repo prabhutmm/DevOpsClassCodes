@@ -154,6 +154,14 @@
 			<version>1.0</version>
 		</dependency>
 
+        <dependency>
+            <groupId>com.sun</groupId>
+            <artifactId>tools</artifactId>
+            <version>1.6</version>
+            <scope>system</scope>
+            <systemPath>/usr/lib/jvm/java-1.8.0-openjdk-amd64/lib/tools.jar</systemPath>
+        </dependency>
+
 
 		</dependencies>
 
@@ -421,6 +429,7 @@
                         <groupId>org.codehaus.mojo</groupId>
                         <artifactId>cobertura-maven-plugin</artifactId>
                         <version>${cobertura.version}</version>
+
                         <configuration>
                             <formats>
                                 <format>html</format>
